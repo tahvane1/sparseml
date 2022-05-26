@@ -102,7 +102,7 @@ pruning_modifiers:
       - model.4.cv1.conv.weight
       - model.4.cv3.conv.weight
       - model.4.m.0.cv1.conv.weight
-      - model.4.m.2.cv1.conv.weight
+#      - model.4.m.2.cv1.conv.weight
       - model.4.m.1.cv1.conv.weight
       - model.8.cv1.conv.weight
     init_sparsity: *init_sparsity
@@ -114,7 +114,7 @@ pruning_modifiers:
         
   - !GMPruningModifier
     params:
-      - model.9.cv3.conv.weight
+#      - model.9.cv3.conv.weight
       - model.6.m.2.cv2.conv.weight
       - model.5.conv.weight
       - model.9.cv1.conv.weight
@@ -124,13 +124,13 @@ pruning_modifiers:
       - model.9.cv2.conv.weight
       - model.10.conv.weight
       - model.13.cv2.conv.weight
-      - model.9.m.0.cv1.conv.weight
+#      - model.9.m.0.cv1.conv.weight
       - model.20.m.0.cv1.conv.weight
       - model.13.cv3.conv.weight
       - model.13.cv1.conv.weight
       - model.17.cv3.conv.weight
       - model.14.conv.weight
-      - model.4.m.2.cv2.conv.weight
+#      - model.4.m.2.cv2.conv.weight
       - model.3.conv.weight
       - model.4.m.1.cv2.conv.weight
       - model.4.m.0.cv2.conv.weight
@@ -153,7 +153,7 @@ pruning_modifiers:
       - model.23.cv2.conv.weight
       - model.20.m.0.cv2.conv.weight
       - model.18.conv.weight
-      - model.9.m.0.cv2.conv.weight
+ #     - model.9.m.0.cv2.conv.weight
       - model.7.conv.weight
       - model.20.cv3.conv.weight
       - model.20.cv2.conv.weight
