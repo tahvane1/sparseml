@@ -6,5 +6,5 @@
 
 git clone git clone https://ErkkaT@bitbucket.org/ErkkaT/yolov5.git
 cd yolov5
-git checkout release/0.12
-pip install -r requirements.txt
+#git checkout release/0.12
+#pip install -r requirements.txt
